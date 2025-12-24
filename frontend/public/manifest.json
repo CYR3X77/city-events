@@ -1,0 +1,9 @@
+{
+  "short_name": "Городские События",
+  "name": "Информационная система планирования городских мероприятий",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff"
+}
