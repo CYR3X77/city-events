@@ -46,7 +46,7 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - ./backend/.env
+      - ./backend/.env.docker
     depends_on:
       db:
         condition: service_healthy
@@ -68,7 +68,7 @@ services:
     volumes:
       - ./backend:/app
     env_file:
-      - ./backend/.env
+      - ./backend/.env.docker
     depends_on:
       - db
       - redis
@@ -84,7 +84,7 @@ services:
     volumes:
       - ./backend:/app
     env_file:
-      - ./backend/.env
+      - ./backend/.env.docker
     depends_on:
       - db
       - redis
